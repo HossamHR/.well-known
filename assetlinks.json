@@ -1,5 +1,25 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
-  "target" : { "namespace": "android_app", "package_name": "com.HossamHR.hossamhr",
-               "sha256_cert_fingerprints": ["SHA256: E9:B1:D0:AC:99:D1:AB:C7:90:D2:D2:5A:85:F9:38:07:F7:8A:6C:98:D4:2B:62:5D:77:C8:45:69:81:92:90:A4"] }
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.HossamHR.hossamhr",
+    "sha256_cert_fingerprints":
+    ["SHA256: E9:B1:D0:AC:99:D1:AB:C7:90:D2:D2:5A:85:F9:38:07:F7:8A:6C:98:D4:2B:62:5D:77:C8:45:69:81:92:90:A4"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://hossamhr.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.HossamHR.hossamhr",
+    "sha256_cert_fingerprints":
+    ["SHA256: E9:B1:D0:AC:99:D1:AB:C7:90:D2:D2:5A:85:F9:38:07:F7:8A:6C:98:D4:2B:62:5D:77:C8:45:69:81:92:90:A4"]
+  }
 }]
